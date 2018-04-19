@@ -29,13 +29,3 @@ class Search:
                 if low_term < item < high_term:
                     self.matches.append(item)
 
-
-class Tester:
-    tots = 0
-    title = ""
-
-    def __init__(self, tots, title):
-        self.tots = tots
-        self.title = title
-
-
